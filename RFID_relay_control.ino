@@ -3,7 +3,7 @@
 
 #define SS_PIN 10
 #define RST_PIN 5
-#define RELAY_PIN 4 // the Arduino pin connects to relay
+#define RELAY_PIN 8 // the Arduino pin connects to relay
 
 MFRC522 rfid(SS_PIN, RST_PIN);
 
